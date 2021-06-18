@@ -1,4 +1,4 @@
-import CountryList from "./Country/List";
+import CountryList from "./Geo/Country/List";
 
 var routes = [
     {
