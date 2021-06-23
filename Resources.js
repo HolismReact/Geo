@@ -1,10 +1,8 @@
-import CountryList from "./Geo/Country/List";
+import { CountryList } from "./Geo/Country/List";
+import { Resource } from 'react-admin';
 
-var routes = [
-    {
-        path: "/countries",
-        component: CountryList
-    }
+var resources = [
+    <Resource name='countries' list={CountryList} />
 ]
 
-export default routes;
+export default resources;
