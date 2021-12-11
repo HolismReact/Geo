@@ -1,5 +1,7 @@
 import { List, Datagrid, TextField } from 'react-admin';
 
+// https://flagcdn.com/
+
 export const CountryList = props => (
     <List {...props}>
         <Datagrid rowClick="show">
